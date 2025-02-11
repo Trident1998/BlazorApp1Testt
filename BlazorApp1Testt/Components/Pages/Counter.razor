@@ -1,0 +1,52 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+@inject IJSRuntime JS
+
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<i class="bi bi-clipboard-data"></i>s
+
+<i class="bi bi-clipboard-data-fill-nav-menu"></i>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<canvas id="myPieChart"></canvas>
+
+@code {
+    private int currentCount = 0;
+    private readonly string[] labels = { "Apple", "Banana", "Cherry", "Grapes", "Orange", "Dmytro"};
+    private readonly int[] backgroundData = { 10, 20, 15, 30, 25, 10};
+
+
+
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) // Ensures it runs only once after page reload
+        {
+            await JS.InvokeVoidAsync("pie", labels, backgroundData);
+        }
+    }
+
+    private async Task IncrementCount()
+    {
+        currentCount++;
+        Console.WriteLine(new Player());
+
+        await JS.InvokeVoidAsync("console.log", new Player());
+         await JS.InvokeVoidAsync("log", new Player());
+                  @* await JS.InvokeVoidAsync("pie"); *@
+
+
+    }
+
+    public class Player 
+    {
+        public string Name {get; set;} = "Dmytro";
+        public string Level {get; set;} = "TOP";
+    }
+}

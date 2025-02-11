@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/obj/Debug/net8.0/scopedcss/projectbundle/BlazorApp1Testt.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorApp1Testt.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/js/test.js",
+      "PackagePath": "staticwebassets/js/test.js"
+    },
+    {
+      "Id": "/Users/a1/Desktop/BYU/2025 winter 1 Term/CSE 325 .NET Software Development/BlazorApp1Testt/BlazorApp1Testt/wwwroot/test.css",
+      "PackagePath": "staticwebassets/test.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorApp1Testt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorApp1Testt.props",
+      "PackagePath": "build\\BlazorApp1Testt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorApp1Testt.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp1Testt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorApp1Testt.props",
+      "PackagePath": "buildTransitive\\BlazorApp1Testt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
